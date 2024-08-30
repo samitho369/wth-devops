@@ -25,6 +25,13 @@ import React from "react";
             <div id="hours">
                 <h2>Today's Hours</h2>
                 <p>{todayHours.day} {todayHours.open} - {todayHours.close}</p>
+                <p>{shelterHours[0].day} {shelterHours[0].open} - {shelterHours[0].close}</p>
+                <p>{shelterHours[1].day} {shelterHours[1].open} - {shelterHours[1].close}</p>
+                <p>{shelterHours[2].day} {shelterHours[2].open} - {shelterHours[2].close}</p>
+                <p>{shelterHours[3].day} {shelterHours[3].open} - {shelterHours[3].close}</p>
+                <p>{shelterHours[4].day} {shelterHours[4].open} - {shelterHours[4].close}</p>
+                <p>{shelterHours[5].day} {shelterHours[5].open} - {shelterHours[5].close}</p>
+                <p>{shelterHours[6].day} {shelterHours[6].open} - {shelterHours[6].close}</p>
             </div>
         )
     }
